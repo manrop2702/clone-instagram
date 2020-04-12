@@ -3,6 +3,7 @@
 @import 'reset.css';
 @import 'footer.css';
 @import 'side-nav.css';
+@import 'nav-profile.css';
 
 body {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
