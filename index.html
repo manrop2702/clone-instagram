@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <title>Feed | Instaclone</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     </head>
     <body>
         <!-- navigation bar -->
@@ -35,7 +36,9 @@
             </div>
         </nav>
         <!-- newsfeed -->
-        <main class="feed">
+<div class="content">
+    <div class="feed">
+        <main class="card">
             <section class="photo">
                 <header class="photo__header">
                     <div class="photo__header-column">
@@ -58,7 +61,7 @@
                 <div class="photo__info">
                     <div class="photo__icons">
                         <span class="photo__icon">
-                            <i class="fa fa-heart-o fa-lg"></i>
+                            <i class="fa fa-heart-o heart fa-lg"></i>
                         </span>
                         <span class="photo__icon">
                             <i class="fa fa-comment-o fa-lg"></i>
@@ -81,6 +84,246 @@
                 </div>
             </section>
         </main>
+
+        <main class="card">
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="images/avatar.jpg"
+                        />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">minh_2753</span>
+                        <span class="photo__location">Đà Nẵng, Việt Nam</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="images/feedPhoto.jpg"
+                    />
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">3.699 likes</span>
+                    <ul class="photo__comments">
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">minh_2753</span> Cutie
+                        </li>
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">poop</span> love it !
+                        </li>
+                    </ul>
+                    <span class="photo__time-ago">11 hours ago</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
         <!-- end newsfeed -->
+
+        <!-- side-nav -->
+    <div class="side-nav">
+        <!-- <div class="profile-nav">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="images/avatar.jpg">
+                </div>
+                <div class="profile-info">
+                    <div class="user-account">n_minh2753</div>
+                    <div class="user-name">Minh Nguyen</div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="story" style="left: 731px">
+            <div class="story-header">
+              <div class="title">
+                <div class="str">Story</div>
+                <a href="#" class="see-all">
+                  <div class="sll">See all</div>
+                </a>
+              </div>
+            </div>
+            <div class="story-box">
+              <div class="story-content">
+                <div style="height: 250px; overflow: hidden auto;">
+                  <div style="flex-direction: column; padding-bottom: 5148px; padding-top: 0px;">
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 hour ago</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+
+                    <div style="height: 52px;">
+                      <button class="ten">
+                        <div>
+                          <canvas class="canvas" height="88" width="88" style="position: absolute; top: -5px; left: -5px; width: 44px; height: 44px;">
+                          </canvas>
+                          <span class="profile" style="width: 34px; height: 34px;"><img alt="Ảnh đại diện của lyk_1208" class="img" src="https://loremflickr.com/320/240"></span>
+                        </div>
+                        <div class="info">
+                          <div class="name">lyk_1208</div>
+                          <div class="time">1 giờ trước</div>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__list-item"><a href="#" class="footer__link">about us</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">support</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">blog</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">press</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">api</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">jobs</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">privacy</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">terms</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">directory</a></li>
+                <li class="footer__list-item"><a href="#" class="footer__link">language</a></li>
+            </ul>
+        </nav>
+        <span class="footer__copyright">© 2020 instagram from facebook</span>
+    </footer>
+    </div>
+</div>
     </body>
 </html>
